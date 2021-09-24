@@ -25,6 +25,8 @@ and finally, to build and run the strapi nodejs server...
 npm run dev
 ```
 
+:heavy_exclamation_mark: Finally, make sure to clone the [NigeriaSE4ALL Blog Frontend](https://github.com/chunkingz/NigeriaSE4ALL-Blog-Frontend).
+
 
 ---
 
