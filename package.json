@@ -1,0 +1,41 @@
+{
+  "name": "nigeriase4all-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "NigeriaSE4ALL Strapi backend for Blog",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "knex": "0.21.18",
+    "pg": "^8.7.1",
+    "slugify": "^1.6.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-documentation": "^3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "^3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8"
+  },
+  "author": {
+    "name": "Fortune King"
+  },
+  "strapi": {
+    "uuid": "97a15fd8-df8c-4979-8fee-82de38d8d901"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
