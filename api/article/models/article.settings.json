@@ -47,6 +47,10 @@
     "url": {
       "type": "uid",
       "targetField": "title"
+    },
+    "summary": {
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -1,18 +1,19 @@
 {
   "paths": {
-    "/categories": {
+    "/dynamic-blog-content": {
       "get": {
         "deprecated": false,
-        "description": "",
+        "description": "Find all the dynamic-blog-content's records",
         "responses": {
           "200": {
-            "description": "response",
+            "description": "Retrieve dynamic-blog-content document(s)",
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Category"
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
                   }
                 }
               }
@@ -51,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Dynamic-blog-content"
         ],
         "parameters": [
           {
@@ -192,81 +193,18 @@
           }
         ]
       },
-      "post": {
+      "put": {
         "deprecated": false,
-        "description": "Create a new record",
+        "description": "Update a single dynamic-blog-content record",
         "responses": {
           "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Category"
-        ],
-        "requestBody": {
-          "description": "",
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/NewCategory"
-              }
-            }
-          }
-        }
-      }
-    },
-    "/categories/count": {
-      "get": {
-        "deprecated": false,
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response",
+            "description": "Retrieve dynamic-blog-content document(s)",
             "content": {
               "application/json": {
                 "schema": {
                   "properties": {
-                    "count": {
-                      "type": "integer"
+                    "foo": {
+                      "type": "string"
                     }
                   }
                 }
@@ -306,122 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Category"
-        ],
-        "parameters": []
-      }
-    },
-    "/categories/{id}": {
-      "get": {
-        "deprecated": false,
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Category"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
-      },
-      "put": {
-        "deprecated": false,
-        "description": "Update a record",
-        "responses": {
-          "200": {
-            "description": "response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Category"
-                }
-              }
-            }
-          },
-          "403": {
-            "description": "Forbidden",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "404": {
-            "description": "Not found",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          },
-          "default": {
-            "description": "unexpected error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        },
-        "summary": "",
-        "tags": [
-          "Category"
+          "Dynamic-blog-content"
         ],
         "requestBody": {
           "description": "",
@@ -429,30 +252,19 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewCategory"
+                "$ref": "#/components/schemas/NewDynamic-blog-content"
               }
             }
           }
         },
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
+        "parameters": []
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a record",
+        "description": "Delete a single dynamic-blog-content record",
         "responses": {
           "200": {
-            "description": "deletes a single record based on the ID supplied",
+            "description": "deletes a single dynamic-blog-content based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,90 +307,171 @@
         },
         "summary": "",
         "tags": [
-          "Category"
+          "Dynamic-blog-content"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "description": "",
-            "deprecated": false,
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
+        "parameters": []
       }
     }
   },
   "components": {
     "schemas": {
-      "Category": {
+      "Dynamic-blog-content": {
         "required": [
-          "id",
-          "name"
+          "id"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "name": {
+          "hero_title": {
             "type": "string"
           },
-          "articles": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "title",
-                "content",
-                "image",
-                "published_date",
-                "summary"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "title": {
-                  "type": "string"
-                },
-                "content": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string"
-                },
-                "published_date": {
-                  "type": "string"
-                },
-                "categories": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "user": {
-                  "type": "string"
-                },
-                "url": {
-                  "type": "uid"
-                },
-                "summary": {
-                  "type": "string"
-                },
-                "published_at": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
+          "hero_subtitle_1": {
+            "type": "string"
+          },
+          "hero_subtitle_2": {
+            "type": "string"
+          },
+          "btn1": {
+            "type": "string"
+          },
+          "hero_category": {
+            "type": "string"
+          },
+          "btn2": {
+            "type": "string"
+          },
+          "tag_txt": {
+            "type": "string"
+          },
+          "social_txt": {
+            "type": "string"
+          },
+          "facebook_url": {
+            "type": "string"
+          },
+          "linkedin_url": {
+            "type": "string"
+          },
+          "email_url": {
+            "type": "string"
+          },
+          "contact_hero_title": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_1": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_2": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_3": {
+            "type": "string"
+          },
+          "btn3": {
+            "type": "string"
+          },
+          "contact_page_txt_1": {
+            "type": "string"
+          },
+          "contact_page_txt_2": {
+            "type": "string"
+          },
+          "contact_page_txt_3": {
+            "type": "string"
+          },
+          "contact_page_txt_4": {
+            "type": "string"
+          },
+          "contact_page_txt_5": {
+            "type": "string"
+          },
+          "contact_page_txt_6": {
+            "type": "string"
+          },
+          "contact_page_txt_7": {
+            "type": "string"
+          },
+          "contact_page_txt_8": {
+            "type": "string"
+          },
+          "contact_page_txt_9": {
+            "type": "string"
+          },
+          "contact_page_error_1": {
+            "type": "string"
+          },
+          "contact_page_error_2": {
+            "type": "string"
+          },
+          "contact_page_error_3": {
+            "type": "string"
+          },
+          "contact_page_error_4": {
+            "type": "string"
+          },
+          "contact_page_error_5": {
+            "type": "string"
+          },
+          "btn4": {
+            "type": "string"
+          },
+          "footer_hero_title": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_1": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_2": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_3": {
+            "type": "string"
+          },
+          "form_success_hero_title": {
+            "type": "string"
+          },
+          "form_success_hero_subtitle_1": {
+            "type": "string"
+          },
+          "btn5": {
+            "type": "string"
+          },
+          "nav_site_title": {
+            "type": "string"
+          },
+          "nav_txt_1": {
+            "type": "string"
+          },
+          "nav_txt_2": {
+            "type": "string"
+          },
+          "nav_txt_3": {
+            "type": "string"
+          },
+          "nav_txt_url_1": {
+            "type": "string"
+          },
+          "nav_txt_url_2": {
+            "type": "string"
+          },
+          "nav_txt_url_3": {
+            "type": "string"
+          },
+          "nav_logo_url": {
+            "type": "string"
+          },
+          "subscribe_hero_title": {
+            "type": "string"
+          },
+          "subscribe_hero_subtitle_1": {
+            "type": "string"
+          },
+          "subscribe_hero_txt_1": {
+            "type": "string"
+          },
+          "btn6": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -586,19 +479,157 @@
           }
         }
       },
-      "NewCategory": {
-        "required": [
-          "name"
-        ],
+      "NewDynamic-blog-content": {
         "properties": {
-          "name": {
+          "hero_title": {
             "type": "string"
           },
-          "articles": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
+          "hero_subtitle_1": {
+            "type": "string"
+          },
+          "hero_subtitle_2": {
+            "type": "string"
+          },
+          "btn1": {
+            "type": "string"
+          },
+          "hero_category": {
+            "type": "string"
+          },
+          "btn2": {
+            "type": "string"
+          },
+          "tag_txt": {
+            "type": "string"
+          },
+          "social_txt": {
+            "type": "string"
+          },
+          "facebook_url": {
+            "type": "string"
+          },
+          "linkedin_url": {
+            "type": "string"
+          },
+          "email_url": {
+            "type": "string"
+          },
+          "contact_hero_title": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_1": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_2": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_3": {
+            "type": "string"
+          },
+          "btn3": {
+            "type": "string"
+          },
+          "contact_page_txt_1": {
+            "type": "string"
+          },
+          "contact_page_txt_2": {
+            "type": "string"
+          },
+          "contact_page_txt_3": {
+            "type": "string"
+          },
+          "contact_page_txt_4": {
+            "type": "string"
+          },
+          "contact_page_txt_5": {
+            "type": "string"
+          },
+          "contact_page_txt_6": {
+            "type": "string"
+          },
+          "contact_page_txt_7": {
+            "type": "string"
+          },
+          "contact_page_txt_8": {
+            "type": "string"
+          },
+          "contact_page_txt_9": {
+            "type": "string"
+          },
+          "contact_page_error_1": {
+            "type": "string"
+          },
+          "contact_page_error_2": {
+            "type": "string"
+          },
+          "contact_page_error_3": {
+            "type": "string"
+          },
+          "contact_page_error_4": {
+            "type": "string"
+          },
+          "contact_page_error_5": {
+            "type": "string"
+          },
+          "btn4": {
+            "type": "string"
+          },
+          "footer_hero_title": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_1": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_2": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_3": {
+            "type": "string"
+          },
+          "form_success_hero_title": {
+            "type": "string"
+          },
+          "form_success_hero_subtitle_1": {
+            "type": "string"
+          },
+          "btn5": {
+            "type": "string"
+          },
+          "nav_site_title": {
+            "type": "string"
+          },
+          "nav_txt_1": {
+            "type": "string"
+          },
+          "nav_txt_2": {
+            "type": "string"
+          },
+          "nav_txt_3": {
+            "type": "string"
+          },
+          "nav_txt_url_1": {
+            "type": "string"
+          },
+          "nav_txt_url_2": {
+            "type": "string"
+          },
+          "nav_txt_url_3": {
+            "type": "string"
+          },
+          "nav_logo_url": {
+            "type": "string"
+          },
+          "subscribe_hero_title": {
+            "type": "string"
+          },
+          "subscribe_hero_subtitle_1": {
+            "type": "string"
+          },
+          "subscribe_hero_txt_1": {
+            "type": "string"
+          },
+          "btn6": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -614,9 +645,5 @@
       }
     }
   },
-  "tags": [
-    {
-      "name": "Category"
-    }
-  ]
+  "tags": []
 }

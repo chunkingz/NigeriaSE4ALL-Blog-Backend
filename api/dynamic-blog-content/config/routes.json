@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dynamic-blog-content",
+      "handler": "dynamic-blog-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dynamic-blog-content",
+      "handler": "dynamic-blog-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dynamic-blog-content",
+      "handler": "dynamic-blog-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

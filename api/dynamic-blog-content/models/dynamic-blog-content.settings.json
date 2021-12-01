@@ -1,0 +1,166 @@
+{
+  "kind": "singleType",
+  "collectionName": "dynamic_blog_contents",
+  "info": {
+    "name": "Dynamic Blog Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_subtitle_1": {
+      "type": "string"
+    },
+    "hero_subtitle_2": {
+      "type": "string"
+    },
+    "btn1": {
+      "type": "string"
+    },
+    "hero_category": {
+      "type": "string"
+    },
+    "btn2": {
+      "type": "string"
+    },
+    "tag_txt": {
+      "type": "string"
+    },
+    "social_txt": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "email_url": {
+      "type": "string"
+    },
+    "contact_hero_title": {
+      "type": "string"
+    },
+    "contact_hero_subtitle_1": {
+      "type": "string"
+    },
+    "contact_hero_subtitle_2": {
+      "type": "string"
+    },
+    "contact_hero_subtitle_3": {
+      "type": "string"
+    },
+    "btn3": {
+      "type": "string"
+    },
+    "contact_page_txt_1": {
+      "type": "string"
+    },
+    "contact_page_txt_2": {
+      "type": "string"
+    },
+    "contact_page_txt_3": {
+      "type": "string"
+    },
+    "contact_page_txt_4": {
+      "type": "string"
+    },
+    "contact_page_txt_5": {
+      "type": "string"
+    },
+    "contact_page_txt_6": {
+      "type": "string"
+    },
+    "contact_page_txt_7": {
+      "type": "string"
+    },
+    "contact_page_txt_8": {
+      "type": "string"
+    },
+    "contact_page_txt_9": {
+      "type": "string"
+    },
+    "contact_page_error_1": {
+      "type": "string"
+    },
+    "contact_page_error_2": {
+      "type": "string"
+    },
+    "contact_page_error_3": {
+      "type": "string"
+    },
+    "contact_page_error_4": {
+      "type": "string"
+    },
+    "contact_page_error_5": {
+      "type": "string"
+    },
+    "btn4": {
+      "type": "string"
+    },
+    "footer_hero_title": {
+      "type": "string"
+    },
+    "footer_hero_subtitle_1": {
+      "type": "string"
+    },
+    "footer_hero_subtitle_2": {
+      "type": "string"
+    },
+    "footer_hero_subtitle_3": {
+      "type": "string"
+    },
+    "form_success_hero_title": {
+      "type": "string"
+    },
+    "form_success_hero_subtitle_1": {
+      "type": "string"
+    },
+    "btn5": {
+      "type": "string"
+    },
+    "nav_site_title": {
+      "type": "string"
+    },
+    "nav_txt_1": {
+      "type": "string"
+    },
+    "nav_txt_2": {
+      "type": "string"
+    },
+    "nav_txt_3": {
+      "type": "string"
+    },
+    "nav_txt_url_1": {
+      "type": "string"
+    },
+    "nav_txt_url_2": {
+      "type": "string"
+    },
+    "nav_txt_url_3": {
+      "type": "string"
+    },
+    "nav_logo_url": {
+      "type": "string"
+    },
+    "subscribe_hero_title": {
+      "type": "string"
+    },
+    "subscribe_hero_subtitle_1": {
+      "type": "string"
+    },
+    "subscribe_hero_txt_1": {
+      "type": "string"
+    },
+    "btn6": {
+      "type": "string"
+    }
+  }
+}

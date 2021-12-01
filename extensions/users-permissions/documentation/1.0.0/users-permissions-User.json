@@ -1259,7 +1259,8 @@
                 "title",
                 "content",
                 "image",
-                "published_date"
+                "published_date",
+                "summary"
               ],
               "properties": {
                 "id": {
@@ -1288,6 +1289,9 @@
                 },
                 "url": {
                   "type": "uid"
+                },
+                "summary": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/21/2021 9:36:52 AM"
+    "x-generation-date": "12/01/2021 3:37:36 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1065,6 +1065,318 @@
             }
           }
         ]
+      }
+    },
+    "/dynamic-blog-content": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the dynamic-blog-content's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-blog-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-blog-content"
+        ],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "put": {
+        "deprecated": false,
+        "description": "Update a single dynamic-blog-content record",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-blog-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-blog-content"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewDynamic-blog-content"
+              }
+            }
+          }
+        },
+        "parameters": []
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a single dynamic-blog-content record",
+        "responses": {
+          "200": {
+            "description": "deletes a single dynamic-blog-content based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-blog-content"
+        ],
+        "parameters": []
       }
     },
     "/email/": {
@@ -3302,7 +3614,8 @@
           "title",
           "content",
           "image",
-          "published_date"
+          "published_date",
+          "summary"
         ],
         "properties": {
           "id": {
@@ -3471,6 +3784,9 @@
           "url": {
             "type": "uid"
           },
+          "summary": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3481,7 +3797,8 @@
         "required": [
           "title",
           "content",
-          "published_date"
+          "published_date",
+          "summary"
         ],
         "properties": {
           "title": {
@@ -3505,6 +3822,9 @@
           },
           "url": {
             "type": "uid"
+          },
+          "summary": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -3538,7 +3858,8 @@
                 "title",
                 "content",
                 "image",
-                "published_date"
+                "published_date",
+                "summary"
               ],
               "properties": {
                 "id": {
@@ -3567,6 +3888,9 @@
                 },
                 "url": {
                   "type": "uid"
+                },
+                "summary": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
@@ -3599,6 +3923,334 @@
             "items": {
               "type": "string"
             }
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
+      "Dynamic-blog-content": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "hero_title": {
+            "type": "string"
+          },
+          "hero_subtitle_1": {
+            "type": "string"
+          },
+          "hero_subtitle_2": {
+            "type": "string"
+          },
+          "btn1": {
+            "type": "string"
+          },
+          "hero_category": {
+            "type": "string"
+          },
+          "btn2": {
+            "type": "string"
+          },
+          "tag_txt": {
+            "type": "string"
+          },
+          "social_txt": {
+            "type": "string"
+          },
+          "facebook_url": {
+            "type": "string"
+          },
+          "linkedin_url": {
+            "type": "string"
+          },
+          "email_url": {
+            "type": "string"
+          },
+          "contact_hero_title": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_1": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_2": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_3": {
+            "type": "string"
+          },
+          "btn3": {
+            "type": "string"
+          },
+          "contact_page_txt_1": {
+            "type": "string"
+          },
+          "contact_page_txt_2": {
+            "type": "string"
+          },
+          "contact_page_txt_3": {
+            "type": "string"
+          },
+          "contact_page_txt_4": {
+            "type": "string"
+          },
+          "contact_page_txt_5": {
+            "type": "string"
+          },
+          "contact_page_txt_6": {
+            "type": "string"
+          },
+          "contact_page_txt_7": {
+            "type": "string"
+          },
+          "contact_page_txt_8": {
+            "type": "string"
+          },
+          "contact_page_txt_9": {
+            "type": "string"
+          },
+          "contact_page_error_1": {
+            "type": "string"
+          },
+          "contact_page_error_2": {
+            "type": "string"
+          },
+          "contact_page_error_3": {
+            "type": "string"
+          },
+          "contact_page_error_4": {
+            "type": "string"
+          },
+          "contact_page_error_5": {
+            "type": "string"
+          },
+          "btn4": {
+            "type": "string"
+          },
+          "footer_hero_title": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_1": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_2": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_3": {
+            "type": "string"
+          },
+          "form_success_hero_title": {
+            "type": "string"
+          },
+          "form_success_hero_subtitle_1": {
+            "type": "string"
+          },
+          "btn5": {
+            "type": "string"
+          },
+          "nav_site_title": {
+            "type": "string"
+          },
+          "nav_txt_1": {
+            "type": "string"
+          },
+          "nav_txt_2": {
+            "type": "string"
+          },
+          "nav_txt_3": {
+            "type": "string"
+          },
+          "nav_txt_url_1": {
+            "type": "string"
+          },
+          "nav_txt_url_2": {
+            "type": "string"
+          },
+          "nav_txt_url_3": {
+            "type": "string"
+          },
+          "nav_logo_url": {
+            "type": "string"
+          },
+          "subscribe_hero_title": {
+            "type": "string"
+          },
+          "subscribe_hero_subtitle_1": {
+            "type": "string"
+          },
+          "subscribe_hero_txt_1": {
+            "type": "string"
+          },
+          "btn6": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "NewDynamic-blog-content": {
+        "properties": {
+          "hero_title": {
+            "type": "string"
+          },
+          "hero_subtitle_1": {
+            "type": "string"
+          },
+          "hero_subtitle_2": {
+            "type": "string"
+          },
+          "btn1": {
+            "type": "string"
+          },
+          "hero_category": {
+            "type": "string"
+          },
+          "btn2": {
+            "type": "string"
+          },
+          "tag_txt": {
+            "type": "string"
+          },
+          "social_txt": {
+            "type": "string"
+          },
+          "facebook_url": {
+            "type": "string"
+          },
+          "linkedin_url": {
+            "type": "string"
+          },
+          "email_url": {
+            "type": "string"
+          },
+          "contact_hero_title": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_1": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_2": {
+            "type": "string"
+          },
+          "contact_hero_subtitle_3": {
+            "type": "string"
+          },
+          "btn3": {
+            "type": "string"
+          },
+          "contact_page_txt_1": {
+            "type": "string"
+          },
+          "contact_page_txt_2": {
+            "type": "string"
+          },
+          "contact_page_txt_3": {
+            "type": "string"
+          },
+          "contact_page_txt_4": {
+            "type": "string"
+          },
+          "contact_page_txt_5": {
+            "type": "string"
+          },
+          "contact_page_txt_6": {
+            "type": "string"
+          },
+          "contact_page_txt_7": {
+            "type": "string"
+          },
+          "contact_page_txt_8": {
+            "type": "string"
+          },
+          "contact_page_txt_9": {
+            "type": "string"
+          },
+          "contact_page_error_1": {
+            "type": "string"
+          },
+          "contact_page_error_2": {
+            "type": "string"
+          },
+          "contact_page_error_3": {
+            "type": "string"
+          },
+          "contact_page_error_4": {
+            "type": "string"
+          },
+          "contact_page_error_5": {
+            "type": "string"
+          },
+          "btn4": {
+            "type": "string"
+          },
+          "footer_hero_title": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_1": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_2": {
+            "type": "string"
+          },
+          "footer_hero_subtitle_3": {
+            "type": "string"
+          },
+          "form_success_hero_title": {
+            "type": "string"
+          },
+          "form_success_hero_subtitle_1": {
+            "type": "string"
+          },
+          "btn5": {
+            "type": "string"
+          },
+          "nav_site_title": {
+            "type": "string"
+          },
+          "nav_txt_1": {
+            "type": "string"
+          },
+          "nav_txt_2": {
+            "type": "string"
+          },
+          "nav_txt_3": {
+            "type": "string"
+          },
+          "nav_txt_url_1": {
+            "type": "string"
+          },
+          "nav_txt_url_2": {
+            "type": "string"
+          },
+          "nav_txt_url_3": {
+            "type": "string"
+          },
+          "nav_logo_url": {
+            "type": "string"
+          },
+          "subscribe_hero_title": {
+            "type": "string"
+          },
+          "subscribe_hero_subtitle_1": {
+            "type": "string"
+          },
+          "subscribe_hero_txt_1": {
+            "type": "string"
+          },
+          "btn6": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -3838,7 +4490,8 @@
                 "title",
                 "content",
                 "image",
-                "published_date"
+                "published_date",
+                "summary"
               ],
               "properties": {
                 "id": {
@@ -3867,6 +4520,9 @@
                 },
                 "url": {
                   "type": "uid"
+                },
+                "summary": {
+                  "type": "string"
                 },
                 "published_at": {
                   "type": "string"
