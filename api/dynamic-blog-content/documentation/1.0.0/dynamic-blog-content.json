@@ -473,6 +473,135 @@
           "btn6": {
             "type": "string"
           },
+          "home_section1_hero": {
+            "type": "string"
+          },
+          "home_section1_subtitle1": {
+            "type": "string"
+          },
+          "home_section1_subtitle2": {
+            "type": "string"
+          },
+          "btn7": {
+            "type": "string"
+          },
+          "home_section2_hero": {
+            "type": "string"
+          },
+          "home_section2_subtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardsubtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardtitle2": {
+            "type": "string"
+          },
+          "home_section3_cardssubtitle2": {
+            "type": "string"
+          },
+          "home_section3_cardtitle3": {
+            "type": "string"
+          },
+          "home_section3_cardsubtitle3": {
+            "type": "string"
+          },
+          "home_section4_hero": {
+            "type": "string"
+          },
+          "home_section4_subtitle": {
+            "type": "string"
+          },
+          "home_section4_tagtitle1": {
+            "type": "string"
+          },
+          "home_section4_tagtitle2": {
+            "type": "string"
+          },
+          "home_section4_card1_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card1_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card2_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card2_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card3_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card3_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card4_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card4_maintitle2": {
+            "type": "string"
+          },
+          "btn8": {
+            "type": "string"
+          },
+          "home_section5_hero": {
+            "type": "string"
+          },
+          "home_section5_subtitle": {
+            "type": "string"
+          },
+          "home_section7_title1": {
+            "type": "string"
+          },
+          "home_section7_subtitle1": {
+            "type": "string"
+          },
+          "home_section7_title2": {
+            "type": "string"
+          },
+          "home_section7_subtitle2": {
+            "type": "string"
+          },
+          "home_section7_title3": {
+            "type": "string"
+          },
+          "home_section7_subtitle3": {
+            "type": "string"
+          },
+          "home_section8_title1": {
+            "type": "string"
+          },
+          "home_section8_title2": {
+            "type": "string"
+          },
+          "home_section8_eu_url": {
+            "type": "string"
+          },
+          "home_section8_bmz_url": {
+            "type": "string"
+          },
+          "home_section8_giz_url": {
+            "type": "string"
+          },
+          "home_section9_title1": {
+            "type": "string"
+          },
+          "home_section9_title2": {
+            "type": "string"
+          },
+          "home_section9_title3": {
+            "type": "string"
+          },
+          "home_section9_url1": {
+            "type": "string"
+          },
+          "home_section9_url2": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -629,6 +758,135 @@
             "type": "string"
           },
           "btn6": {
+            "type": "string"
+          },
+          "home_section1_hero": {
+            "type": "string"
+          },
+          "home_section1_subtitle1": {
+            "type": "string"
+          },
+          "home_section1_subtitle2": {
+            "type": "string"
+          },
+          "btn7": {
+            "type": "string"
+          },
+          "home_section2_hero": {
+            "type": "string"
+          },
+          "home_section2_subtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardsubtitle1": {
+            "type": "string"
+          },
+          "home_section3_cardtitle2": {
+            "type": "string"
+          },
+          "home_section3_cardssubtitle2": {
+            "type": "string"
+          },
+          "home_section3_cardtitle3": {
+            "type": "string"
+          },
+          "home_section3_cardsubtitle3": {
+            "type": "string"
+          },
+          "home_section4_hero": {
+            "type": "string"
+          },
+          "home_section4_subtitle": {
+            "type": "string"
+          },
+          "home_section4_tagtitle1": {
+            "type": "string"
+          },
+          "home_section4_tagtitle2": {
+            "type": "string"
+          },
+          "home_section4_card1_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card1_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card2_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card2_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card3_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card3_maintitle2": {
+            "type": "string"
+          },
+          "home_section4_card4_maintitle1": {
+            "type": "string"
+          },
+          "home_section4_card4_maintitle2": {
+            "type": "string"
+          },
+          "btn8": {
+            "type": "string"
+          },
+          "home_section5_hero": {
+            "type": "string"
+          },
+          "home_section5_subtitle": {
+            "type": "string"
+          },
+          "home_section7_title1": {
+            "type": "string"
+          },
+          "home_section7_subtitle1": {
+            "type": "string"
+          },
+          "home_section7_title2": {
+            "type": "string"
+          },
+          "home_section7_subtitle2": {
+            "type": "string"
+          },
+          "home_section7_title3": {
+            "type": "string"
+          },
+          "home_section7_subtitle3": {
+            "type": "string"
+          },
+          "home_section8_title1": {
+            "type": "string"
+          },
+          "home_section8_title2": {
+            "type": "string"
+          },
+          "home_section8_eu_url": {
+            "type": "string"
+          },
+          "home_section8_bmz_url": {
+            "type": "string"
+          },
+          "home_section8_giz_url": {
+            "type": "string"
+          },
+          "home_section9_title1": {
+            "type": "string"
+          },
+          "home_section9_title2": {
+            "type": "string"
+          },
+          "home_section9_title3": {
+            "type": "string"
+          },
+          "home_section9_url1": {
+            "type": "string"
+          },
+          "home_section9_url2": {
             "type": "string"
           },
           "published_at": {
