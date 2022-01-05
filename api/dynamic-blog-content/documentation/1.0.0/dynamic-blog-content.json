@@ -602,6 +602,24 @@
           "home_section9_url2": {
             "type": "string"
           },
+          "Nav_txt_4": {
+            "type": "string"
+          },
+          "Nav_txt_5": {
+            "type": "string"
+          },
+          "Nav_txt_6": {
+            "type": "string"
+          },
+          "Nav_txt_url_4": {
+            "type": "string"
+          },
+          "Nav_txt_url_5": {
+            "type": "string"
+          },
+          "Nav_txt_url_6": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -887,6 +905,24 @@
             "type": "string"
           },
           "home_section9_url2": {
+            "type": "string"
+          },
+          "Nav_txt_4": {
+            "type": "string"
+          },
+          "Nav_txt_5": {
+            "type": "string"
+          },
+          "Nav_txt_6": {
+            "type": "string"
+          },
+          "Nav_txt_url_4": {
+            "type": "string"
+          },
+          "Nav_txt_url_5": {
+            "type": "string"
+          },
+          "Nav_txt_url_6": {
             "type": "string"
           },
           "published_at": {
