@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/10/2022 4:35:36 AM"
+    "x-generation-date": "01/20/2022 5:09:59 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1375,6 +1375,630 @@
         "summary": "",
         "tags": [
           "Dynamic-blog-content"
+        ],
+        "parameters": []
+      }
+    },
+    "/dynamic-privacy-policy-content": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the dynamic-privacy-policy-content's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-privacy-policy-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-privacy-policy-content"
+        ],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "put": {
+        "deprecated": false,
+        "description": "Update a single dynamic-privacy-policy-content record",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-privacy-policy-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-privacy-policy-content"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewDynamic-privacy-policy-content"
+              }
+            }
+          }
+        },
+        "parameters": []
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a single dynamic-privacy-policy-content record",
+        "responses": {
+          "200": {
+            "description": "deletes a single dynamic-privacy-policy-content based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-privacy-policy-content"
+        ],
+        "parameters": []
+      }
+    },
+    "/dynamic-tos-content": {
+      "get": {
+        "deprecated": false,
+        "description": "Find all the dynamic-tos-content's records",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-tos-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-tos-content"
+        ],
+        "parameters": [
+          {
+            "name": "_limit",
+            "in": "query",
+            "required": false,
+            "description": "Maximum number of results possible",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_sort",
+            "in": "query",
+            "required": false,
+            "description": "Sort according to a specific field.",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_start",
+            "in": "query",
+            "required": false,
+            "description": "Skip a specific number of entries (especially useful for pagination)",
+            "schema": {
+              "type": "integer"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "=",
+            "in": "query",
+            "required": false,
+            "description": "Get entries that matches exactly your input",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_ne",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are not equals to something",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lt",
+            "in": "query",
+            "required": false,
+            "description": "Get record that are lower than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_lte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are lower than or equal to a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gt",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_gte",
+            "in": "query",
+            "required": false,
+            "description": "Get records that are greater than  or equal a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_contains",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_containss",
+            "in": "query",
+            "required": false,
+            "description": "Get records that contains (case sensitive) a value",
+            "schema": {
+              "type": "string"
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_in",
+            "in": "query",
+            "required": false,
+            "description": "Get records that matches any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          },
+          {
+            "name": "_nin",
+            "in": "query",
+            "required": false,
+            "description": "Get records that doesn't match any value in the array of values",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "deprecated": false
+          }
+        ]
+      },
+      "put": {
+        "deprecated": false,
+        "description": "Update a single dynamic-tos-content record",
+        "responses": {
+          "200": {
+            "description": "Retrieve dynamic-tos-content document(s)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "foo": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-tos-content"
+        ],
+        "requestBody": {
+          "description": "",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewDynamic-tos-content"
+              }
+            }
+          }
+        },
+        "parameters": []
+      },
+      "delete": {
+        "deprecated": false,
+        "description": "Delete a single dynamic-tos-content record",
+        "responses": {
+          "200": {
+            "description": "deletes a single dynamic-tos-content based on the ID supplied",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "integer",
+                  "format": "int64"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "summary": "",
+        "tags": [
+          "Dynamic-tos-content"
         ],
         "parameters": []
       }
@@ -4175,52 +4799,52 @@
           "home_section5_subtitle": {
             "type": "string"
           },
-          "home_section7_title1": {
+          "footer_section1_title1": {
             "type": "string"
           },
-          "home_section7_subtitle1": {
+          "footer_section1_subtitle1_1": {
             "type": "string"
           },
-          "home_section7_title2": {
+          "footer_section1_title2": {
             "type": "string"
           },
-          "home_section7_subtitle2": {
+          "footer_section1_subtitle2": {
             "type": "string"
           },
-          "home_section7_title3": {
+          "footer_section1_title3": {
             "type": "string"
           },
-          "home_section7_subtitle3": {
+          "footer_section1_subtitle3": {
             "type": "string"
           },
-          "home_section8_title1": {
+          "footer_section2_title1": {
             "type": "string"
           },
-          "home_section8_title2": {
+          "footer_section2_title2": {
             "type": "string"
           },
-          "home_section8_eu_url": {
+          "footer_section2_eu_url": {
             "type": "string"
           },
-          "home_section8_bmz_url": {
+          "footer_section2_bmz_url": {
             "type": "string"
           },
-          "home_section8_giz_url": {
+          "footer_section2_giz_url": {
             "type": "string"
           },
-          "home_section9_title1": {
+          "footer_section3_title1": {
             "type": "string"
           },
-          "home_section9_title2": {
+          "footer_section3_title2": {
             "type": "string"
           },
-          "home_section9_title3": {
+          "footer_section3_title3": {
             "type": "string"
           },
-          "home_section9_url1": {
+          "footer_section3_url1": {
             "type": "string"
           },
-          "home_section9_url2": {
+          "footer_section3_url2": {
             "type": "string"
           },
           "Nav_txt_4": {
@@ -4311,6 +4935,105 @@
             "type": "string"
           },
           "minigrids_section5_card2_subtitle": {
+            "type": "string"
+          },
+          "accreditation_hero": {
+            "type": "string"
+          },
+          "accreditation_title1": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt1_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt2_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt3_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt6": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_2": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_3": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_4": {
             "type": "string"
           },
           "published_at": {
@@ -4552,52 +5275,52 @@
           "home_section5_subtitle": {
             "type": "string"
           },
-          "home_section7_title1": {
+          "footer_section1_title1": {
             "type": "string"
           },
-          "home_section7_subtitle1": {
+          "footer_section1_subtitle1_1": {
             "type": "string"
           },
-          "home_section7_title2": {
+          "footer_section1_title2": {
             "type": "string"
           },
-          "home_section7_subtitle2": {
+          "footer_section1_subtitle2": {
             "type": "string"
           },
-          "home_section7_title3": {
+          "footer_section1_title3": {
             "type": "string"
           },
-          "home_section7_subtitle3": {
+          "footer_section1_subtitle3": {
             "type": "string"
           },
-          "home_section8_title1": {
+          "footer_section2_title1": {
             "type": "string"
           },
-          "home_section8_title2": {
+          "footer_section2_title2": {
             "type": "string"
           },
-          "home_section8_eu_url": {
+          "footer_section2_eu_url": {
             "type": "string"
           },
-          "home_section8_bmz_url": {
+          "footer_section2_bmz_url": {
             "type": "string"
           },
-          "home_section8_giz_url": {
+          "footer_section2_giz_url": {
             "type": "string"
           },
-          "home_section9_title1": {
+          "footer_section3_title1": {
             "type": "string"
           },
-          "home_section9_title2": {
+          "footer_section3_title2": {
             "type": "string"
           },
-          "home_section9_title3": {
+          "footer_section3_title3": {
             "type": "string"
           },
-          "home_section9_url1": {
+          "footer_section3_url1": {
             "type": "string"
           },
-          "home_section9_url2": {
+          "footer_section3_url2": {
             "type": "string"
           },
           "Nav_txt_4": {
@@ -4688,6 +5411,857 @@
             "type": "string"
           },
           "minigrids_section5_card2_subtitle": {
+            "type": "string"
+          },
+          "accreditation_hero": {
+            "type": "string"
+          },
+          "accreditation_title1": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt1_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt1_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt2_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt2_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt3_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt3_img_url": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt4_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt1": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt2": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt3": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt4": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt5": {
+            "type": "string"
+          },
+          "accreditation_pt5_txt6": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_2": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_3": {
+            "type": "string"
+          },
+          "footer_section1_subtitle1_4": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
+      "Dynamic-privacy-policy-content": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "pp_hero": {
+            "type": "string"
+          },
+          "pp_txt1": {
+            "type": "string"
+          },
+          "pp_txt1_1": {
+            "type": "string"
+          },
+          "pp_txt1_2_1": {
+            "type": "string"
+          },
+          "pp_txt1_2_2": {
+            "type": "string"
+          },
+          "pp_txt2": {
+            "type": "string"
+          },
+          "pp_txt2_1_1": {
+            "type": "string"
+          },
+          "pp_txt2_1_2": {
+            "type": "string"
+          },
+          "pp_txt2_1_3": {
+            "type": "string"
+          },
+          "pp_txt2_1_4": {
+            "type": "string"
+          },
+          "pp_txt3": {
+            "type": "string"
+          },
+          "pp_txt3_1_1": {
+            "type": "string"
+          },
+          "pp_txt3_1_2": {
+            "type": "string"
+          },
+          "pp_txt3_2_1": {
+            "type": "string"
+          },
+          "pp_txt3_2_2": {
+            "type": "string"
+          },
+          "pp_txt3_3_1": {
+            "type": "string"
+          },
+          "pp_txt3_3_2": {
+            "type": "string"
+          },
+          "pp_txt4": {
+            "type": "string"
+          },
+          "pp_txt4_1": {
+            "type": "string"
+          },
+          "pp_txt4_2": {
+            "type": "string"
+          },
+          "pp_txt4_3_1": {
+            "type": "string"
+          },
+          "pp_txt4_3_2": {
+            "type": "string"
+          },
+          "pp_txt4_4": {
+            "type": "string"
+          },
+          "pp_txt4_5": {
+            "type": "string"
+          },
+          "pp_txt4_6_1": {
+            "type": "string"
+          },
+          "pp_txt4_6_2": {
+            "type": "string"
+          },
+          "pp_txt5": {
+            "type": "string"
+          },
+          "pp_txt5_1": {
+            "type": "string"
+          },
+          "pp_txt5_2": {
+            "type": "string"
+          },
+          "pp_txt5_3": {
+            "type": "string"
+          },
+          "pp_txt5_4": {
+            "type": "string"
+          },
+          "pp_txt5_5": {
+            "type": "string"
+          },
+          "pp_txt5_6": {
+            "type": "string"
+          },
+          "pp_txt5_7": {
+            "type": "string"
+          },
+          "pp_txt5_8": {
+            "type": "string"
+          },
+          "pp_txt6": {
+            "type": "string"
+          },
+          "pp_txt6_1": {
+            "type": "string"
+          },
+          "pp_txt7": {
+            "type": "string"
+          },
+          "pp_txt7_1": {
+            "type": "string"
+          },
+          "pp_txt7_2": {
+            "type": "string"
+          },
+          "pp_txt7_3": {
+            "type": "string"
+          },
+          "pp_txt7_4_1": {
+            "type": "string"
+          },
+          "pp_txt7_4_2": {
+            "type": "string"
+          },
+          "pp_txt7_5_1": {
+            "type": "string"
+          },
+          "pp_txt7_5_2": {
+            "type": "string"
+          },
+          "pp_txt8": {
+            "type": "string"
+          },
+          "pp_txt8_1": {
+            "type": "string"
+          },
+          "pp_txt8_2": {
+            "type": "string"
+          },
+          "pp_txt8_3": {
+            "type": "string"
+          },
+          "pp_txt8_4": {
+            "type": "string"
+          },
+          "pp_txt8_5": {
+            "type": "string"
+          },
+          "pp_txt8_6_1": {
+            "type": "string"
+          },
+          "pp_txt8_6_2": {
+            "type": "string"
+          },
+          "pp_txt9": {
+            "type": "string"
+          },
+          "pp_txt9_1_1": {
+            "type": "string"
+          },
+          "pp_txt9_1_2": {
+            "type": "string"
+          },
+          "pp_txt9_1_3": {
+            "type": "string"
+          },
+          "pp_txt9_2_1": {
+            "type": "string"
+          },
+          "pp_txt9_2_2": {
+            "type": "string"
+          },
+          "pp_txt9_3": {
+            "type": "string"
+          },
+          "pp_txt9_4": {
+            "type": "string"
+          },
+          "pp_txt10": {
+            "type": "string"
+          },
+          "pp_txt10_1": {
+            "type": "string"
+          },
+          "pp_txt10_2": {
+            "type": "string"
+          },
+          "pp_txt10_3": {
+            "type": "string"
+          },
+          "pp_txt10_4": {
+            "type": "string"
+          },
+          "pp_txt10_5": {
+            "type": "string"
+          },
+          "pp_txt10_6": {
+            "type": "string"
+          },
+          "pp_txt10_7": {
+            "type": "string"
+          },
+          "pp_txt10_8": {
+            "type": "string"
+          },
+          "pp_txt10_9": {
+            "type": "string"
+          },
+          "pp_txt11": {
+            "type": "string"
+          },
+          "pp_txt11_1": {
+            "type": "string"
+          },
+          "pp_txt11_2": {
+            "type": "string"
+          },
+          "pp_txt11_3": {
+            "type": "string"
+          },
+          "pp_txt11_4_1": {
+            "type": "string"
+          },
+          "pp_txt11_4_2": {
+            "type": "string"
+          },
+          "pp_txt11_4_3": {
+            "type": "string"
+          },
+          "pp_txt11_5_1": {
+            "type": "string"
+          },
+          "pp_txt11_5_2": {
+            "type": "string"
+          },
+          "pp_txt11_5_3": {
+            "type": "string"
+          },
+          "pp_txt11_6": {
+            "type": "string"
+          },
+          "pp_txt11_7": {
+            "type": "string"
+          },
+          "pp_txt11_8": {
+            "type": "string"
+          },
+          "pp_txt11_9": {
+            "type": "string"
+          },
+          "pp_txt11_10": {
+            "type": "string"
+          },
+          "pp_txt11_11_1": {
+            "type": "string"
+          },
+          "pp_txt11_11_2": {
+            "type": "string"
+          },
+          "pp_txt11_12_1": {
+            "type": "string"
+          },
+          "pp_txt11_12_2": {
+            "type": "string"
+          },
+          "pp_txt11_13_1": {
+            "type": "string"
+          },
+          "pp_txt11_13_2": {
+            "type": "string"
+          },
+          "pp_txt11_14_1": {
+            "type": "string"
+          },
+          "pp_txt11_14_2": {
+            "type": "string"
+          },
+          "pp_txt11_15": {
+            "type": "string"
+          },
+          "pp_txt12": {
+            "type": "string"
+          },
+          "pp_txt12_1": {
+            "type": "string"
+          },
+          "pp_txt12_2": {
+            "type": "string"
+          },
+          "pp_txt13": {
+            "type": "string"
+          },
+          "pp_txt13_1": {
+            "type": "string"
+          },
+          "pp_txt13_2": {
+            "type": "string"
+          },
+          "pp_txt13_3": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "NewDynamic-privacy-policy-content": {
+        "properties": {
+          "pp_hero": {
+            "type": "string"
+          },
+          "pp_txt1": {
+            "type": "string"
+          },
+          "pp_txt1_1": {
+            "type": "string"
+          },
+          "pp_txt1_2_1": {
+            "type": "string"
+          },
+          "pp_txt1_2_2": {
+            "type": "string"
+          },
+          "pp_txt2": {
+            "type": "string"
+          },
+          "pp_txt2_1_1": {
+            "type": "string"
+          },
+          "pp_txt2_1_2": {
+            "type": "string"
+          },
+          "pp_txt2_1_3": {
+            "type": "string"
+          },
+          "pp_txt2_1_4": {
+            "type": "string"
+          },
+          "pp_txt3": {
+            "type": "string"
+          },
+          "pp_txt3_1_1": {
+            "type": "string"
+          },
+          "pp_txt3_1_2": {
+            "type": "string"
+          },
+          "pp_txt3_2_1": {
+            "type": "string"
+          },
+          "pp_txt3_2_2": {
+            "type": "string"
+          },
+          "pp_txt3_3_1": {
+            "type": "string"
+          },
+          "pp_txt3_3_2": {
+            "type": "string"
+          },
+          "pp_txt4": {
+            "type": "string"
+          },
+          "pp_txt4_1": {
+            "type": "string"
+          },
+          "pp_txt4_2": {
+            "type": "string"
+          },
+          "pp_txt4_3_1": {
+            "type": "string"
+          },
+          "pp_txt4_3_2": {
+            "type": "string"
+          },
+          "pp_txt4_4": {
+            "type": "string"
+          },
+          "pp_txt4_5": {
+            "type": "string"
+          },
+          "pp_txt4_6_1": {
+            "type": "string"
+          },
+          "pp_txt4_6_2": {
+            "type": "string"
+          },
+          "pp_txt5": {
+            "type": "string"
+          },
+          "pp_txt5_1": {
+            "type": "string"
+          },
+          "pp_txt5_2": {
+            "type": "string"
+          },
+          "pp_txt5_3": {
+            "type": "string"
+          },
+          "pp_txt5_4": {
+            "type": "string"
+          },
+          "pp_txt5_5": {
+            "type": "string"
+          },
+          "pp_txt5_6": {
+            "type": "string"
+          },
+          "pp_txt5_7": {
+            "type": "string"
+          },
+          "pp_txt5_8": {
+            "type": "string"
+          },
+          "pp_txt6": {
+            "type": "string"
+          },
+          "pp_txt6_1": {
+            "type": "string"
+          },
+          "pp_txt7": {
+            "type": "string"
+          },
+          "pp_txt7_1": {
+            "type": "string"
+          },
+          "pp_txt7_2": {
+            "type": "string"
+          },
+          "pp_txt7_3": {
+            "type": "string"
+          },
+          "pp_txt7_4_1": {
+            "type": "string"
+          },
+          "pp_txt7_4_2": {
+            "type": "string"
+          },
+          "pp_txt7_5_1": {
+            "type": "string"
+          },
+          "pp_txt7_5_2": {
+            "type": "string"
+          },
+          "pp_txt8": {
+            "type": "string"
+          },
+          "pp_txt8_1": {
+            "type": "string"
+          },
+          "pp_txt8_2": {
+            "type": "string"
+          },
+          "pp_txt8_3": {
+            "type": "string"
+          },
+          "pp_txt8_4": {
+            "type": "string"
+          },
+          "pp_txt8_5": {
+            "type": "string"
+          },
+          "pp_txt8_6_1": {
+            "type": "string"
+          },
+          "pp_txt8_6_2": {
+            "type": "string"
+          },
+          "pp_txt9": {
+            "type": "string"
+          },
+          "pp_txt9_1_1": {
+            "type": "string"
+          },
+          "pp_txt9_1_2": {
+            "type": "string"
+          },
+          "pp_txt9_1_3": {
+            "type": "string"
+          },
+          "pp_txt9_2_1": {
+            "type": "string"
+          },
+          "pp_txt9_2_2": {
+            "type": "string"
+          },
+          "pp_txt9_3": {
+            "type": "string"
+          },
+          "pp_txt9_4": {
+            "type": "string"
+          },
+          "pp_txt10": {
+            "type": "string"
+          },
+          "pp_txt10_1": {
+            "type": "string"
+          },
+          "pp_txt10_2": {
+            "type": "string"
+          },
+          "pp_txt10_3": {
+            "type": "string"
+          },
+          "pp_txt10_4": {
+            "type": "string"
+          },
+          "pp_txt10_5": {
+            "type": "string"
+          },
+          "pp_txt10_6": {
+            "type": "string"
+          },
+          "pp_txt10_7": {
+            "type": "string"
+          },
+          "pp_txt10_8": {
+            "type": "string"
+          },
+          "pp_txt10_9": {
+            "type": "string"
+          },
+          "pp_txt11": {
+            "type": "string"
+          },
+          "pp_txt11_1": {
+            "type": "string"
+          },
+          "pp_txt11_2": {
+            "type": "string"
+          },
+          "pp_txt11_3": {
+            "type": "string"
+          },
+          "pp_txt11_4_1": {
+            "type": "string"
+          },
+          "pp_txt11_4_2": {
+            "type": "string"
+          },
+          "pp_txt11_4_3": {
+            "type": "string"
+          },
+          "pp_txt11_5_1": {
+            "type": "string"
+          },
+          "pp_txt11_5_2": {
+            "type": "string"
+          },
+          "pp_txt11_5_3": {
+            "type": "string"
+          },
+          "pp_txt11_6": {
+            "type": "string"
+          },
+          "pp_txt11_7": {
+            "type": "string"
+          },
+          "pp_txt11_8": {
+            "type": "string"
+          },
+          "pp_txt11_9": {
+            "type": "string"
+          },
+          "pp_txt11_10": {
+            "type": "string"
+          },
+          "pp_txt11_11_1": {
+            "type": "string"
+          },
+          "pp_txt11_11_2": {
+            "type": "string"
+          },
+          "pp_txt11_12_1": {
+            "type": "string"
+          },
+          "pp_txt11_12_2": {
+            "type": "string"
+          },
+          "pp_txt11_13_1": {
+            "type": "string"
+          },
+          "pp_txt11_13_2": {
+            "type": "string"
+          },
+          "pp_txt11_14_1": {
+            "type": "string"
+          },
+          "pp_txt11_14_2": {
+            "type": "string"
+          },
+          "pp_txt11_15": {
+            "type": "string"
+          },
+          "pp_txt12": {
+            "type": "string"
+          },
+          "pp_txt12_1": {
+            "type": "string"
+          },
+          "pp_txt12_2": {
+            "type": "string"
+          },
+          "pp_txt13": {
+            "type": "string"
+          },
+          "pp_txt13_1": {
+            "type": "string"
+          },
+          "pp_txt13_2": {
+            "type": "string"
+          },
+          "pp_txt13_3": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "created_by": {
+            "type": "string"
+          },
+          "updated_by": {
+            "type": "string"
+          }
+        }
+      },
+      "Dynamic-tos-content": {
+        "required": [
+          "id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "tos_hero": {
+            "type": "string"
+          },
+          "tos_txt_1": {
+            "type": "string"
+          },
+          "tos_txt_2": {
+            "type": "string"
+          },
+          "tos_txt_3": {
+            "type": "string"
+          },
+          "tos_txt_4_1": {
+            "type": "string"
+          },
+          "tos_txt_4_2": {
+            "type": "string"
+          },
+          "tos_txt_5_1": {
+            "type": "string"
+          },
+          "tos_txt_5_2": {
+            "type": "string"
+          },
+          "tos_txt_6_1": {
+            "type": "string"
+          },
+          "tos_txt_6_2": {
+            "type": "string"
+          },
+          "tos_txt_7": {
+            "type": "string"
+          },
+          "tos_txt_5_3": {
+            "type": "string"
+          },
+          "tos_txt_6_3": {
+            "type": "string"
+          },
+          "tos_txt_6_4": {
+            "type": "string"
+          },
+          "published_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "NewDynamic-tos-content": {
+        "properties": {
+          "tos_hero": {
+            "type": "string"
+          },
+          "tos_txt_1": {
+            "type": "string"
+          },
+          "tos_txt_2": {
+            "type": "string"
+          },
+          "tos_txt_3": {
+            "type": "string"
+          },
+          "tos_txt_4_1": {
+            "type": "string"
+          },
+          "tos_txt_4_2": {
+            "type": "string"
+          },
+          "tos_txt_5_1": {
+            "type": "string"
+          },
+          "tos_txt_5_2": {
+            "type": "string"
+          },
+          "tos_txt_6_1": {
+            "type": "string"
+          },
+          "tos_txt_6_2": {
+            "type": "string"
+          },
+          "tos_txt_7": {
+            "type": "string"
+          },
+          "tos_txt_5_3": {
+            "type": "string"
+          },
+          "tos_txt_6_3": {
+            "type": "string"
+          },
+          "tos_txt_6_4": {
             "type": "string"
           },
           "published_at": {

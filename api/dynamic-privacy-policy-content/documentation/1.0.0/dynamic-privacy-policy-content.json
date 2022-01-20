@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/dynamic-blog-content": {
+    "/dynamic-privacy-policy-content": {
       "get": {
         "deprecated": false,
-        "description": "Find all the dynamic-blog-content's records",
+        "description": "Find all the dynamic-privacy-policy-content's records",
         "responses": {
           "200": {
-            "description": "Retrieve dynamic-blog-content document(s)",
+            "description": "Retrieve dynamic-privacy-policy-content document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -52,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Dynamic-blog-content"
+          "Dynamic-privacy-policy-content"
         ],
         "parameters": [
           {
@@ -195,10 +195,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single dynamic-blog-content record",
+        "description": "Update a single dynamic-privacy-policy-content record",
         "responses": {
           "200": {
-            "description": "Retrieve dynamic-blog-content document(s)",
+            "description": "Retrieve dynamic-privacy-policy-content document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -244,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Dynamic-blog-content"
+          "Dynamic-privacy-policy-content"
         ],
         "requestBody": {
           "description": "",
@@ -252,7 +252,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewDynamic-blog-content"
+                "$ref": "#/components/schemas/NewDynamic-privacy-policy-content"
               }
             }
           }
@@ -261,10 +261,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single dynamic-blog-content record",
+        "description": "Delete a single dynamic-privacy-policy-content record",
         "responses": {
           "200": {
-            "description": "deletes a single dynamic-blog-content based on the ID supplied",
+            "description": "deletes a single dynamic-privacy-policy-content based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -307,7 +307,7 @@
         },
         "summary": "",
         "tags": [
-          "Dynamic-blog-content"
+          "Dynamic-privacy-policy-content"
         ],
         "parameters": []
       }
@@ -315,7 +315,7 @@
   },
   "components": {
     "schemas": {
-      "Dynamic-blog-content": {
+      "Dynamic-privacy-policy-content": {
         "required": [
           "id"
         ],
@@ -323,472 +323,310 @@
           "id": {
             "type": "string"
           },
-          "hero_title": {
+          "pp_hero": {
             "type": "string"
           },
-          "hero_subtitle_1": {
+          "pp_txt1": {
             "type": "string"
           },
-          "hero_subtitle_2": {
+          "pp_txt1_1": {
             "type": "string"
           },
-          "btn1": {
+          "pp_txt1_2_1": {
             "type": "string"
           },
-          "hero_category": {
+          "pp_txt1_2_2": {
             "type": "string"
           },
-          "btn2": {
+          "pp_txt2": {
             "type": "string"
           },
-          "tag_txt": {
+          "pp_txt2_1_1": {
             "type": "string"
           },
-          "social_txt": {
+          "pp_txt2_1_2": {
             "type": "string"
           },
-          "facebook_url": {
+          "pp_txt2_1_3": {
             "type": "string"
           },
-          "linkedin_url": {
+          "pp_txt2_1_4": {
             "type": "string"
           },
-          "email_url": {
+          "pp_txt3": {
             "type": "string"
           },
-          "contact_hero_title": {
+          "pp_txt3_1_1": {
             "type": "string"
           },
-          "contact_hero_subtitle_1": {
+          "pp_txt3_1_2": {
             "type": "string"
           },
-          "contact_hero_subtitle_2": {
+          "pp_txt3_2_1": {
             "type": "string"
           },
-          "contact_hero_subtitle_3": {
+          "pp_txt3_2_2": {
             "type": "string"
           },
-          "btn3": {
+          "pp_txt3_3_1": {
             "type": "string"
           },
-          "contact_page_txt_1": {
+          "pp_txt3_3_2": {
             "type": "string"
           },
-          "contact_page_txt_2": {
+          "pp_txt4": {
             "type": "string"
           },
-          "contact_page_txt_3": {
+          "pp_txt4_1": {
             "type": "string"
           },
-          "contact_page_txt_4": {
+          "pp_txt4_2": {
             "type": "string"
           },
-          "contact_page_txt_5": {
+          "pp_txt4_3_1": {
             "type": "string"
           },
-          "contact_page_txt_6": {
+          "pp_txt4_3_2": {
             "type": "string"
           },
-          "contact_page_txt_7": {
+          "pp_txt4_4": {
             "type": "string"
           },
-          "contact_page_txt_8": {
+          "pp_txt4_5": {
             "type": "string"
           },
-          "contact_page_txt_9": {
+          "pp_txt4_6_1": {
             "type": "string"
           },
-          "contact_page_error_1": {
+          "pp_txt4_6_2": {
             "type": "string"
           },
-          "contact_page_error_2": {
+          "pp_txt5": {
             "type": "string"
           },
-          "contact_page_error_3": {
+          "pp_txt5_1": {
             "type": "string"
           },
-          "contact_page_error_4": {
+          "pp_txt5_2": {
             "type": "string"
           },
-          "contact_page_error_5": {
+          "pp_txt5_3": {
             "type": "string"
           },
-          "btn4": {
+          "pp_txt5_4": {
             "type": "string"
           },
-          "footer_hero_title": {
+          "pp_txt5_5": {
             "type": "string"
           },
-          "footer_hero_subtitle_1": {
+          "pp_txt5_6": {
             "type": "string"
           },
-          "footer_hero_subtitle_2": {
+          "pp_txt5_7": {
             "type": "string"
           },
-          "footer_hero_subtitle_3": {
+          "pp_txt5_8": {
             "type": "string"
           },
-          "form_success_hero_title": {
+          "pp_txt6": {
             "type": "string"
           },
-          "form_success_hero_subtitle_1": {
+          "pp_txt6_1": {
             "type": "string"
           },
-          "btn5": {
+          "pp_txt7": {
             "type": "string"
           },
-          "nav_site_title": {
+          "pp_txt7_1": {
             "type": "string"
           },
-          "nav_txt_1": {
+          "pp_txt7_2": {
             "type": "string"
           },
-          "nav_txt_2": {
+          "pp_txt7_3": {
             "type": "string"
           },
-          "nav_txt_3": {
+          "pp_txt7_4_1": {
             "type": "string"
           },
-          "nav_txt_url_1": {
+          "pp_txt7_4_2": {
             "type": "string"
           },
-          "nav_txt_url_2": {
+          "pp_txt7_5_1": {
             "type": "string"
           },
-          "nav_txt_url_3": {
+          "pp_txt7_5_2": {
             "type": "string"
           },
-          "nav_logo_url": {
+          "pp_txt8": {
             "type": "string"
           },
-          "subscribe_hero_title": {
+          "pp_txt8_1": {
             "type": "string"
           },
-          "subscribe_hero_subtitle_1": {
+          "pp_txt8_2": {
             "type": "string"
           },
-          "subscribe_hero_txt_1": {
+          "pp_txt8_3": {
             "type": "string"
           },
-          "btn6": {
+          "pp_txt8_4": {
             "type": "string"
           },
-          "home_section1_hero": {
+          "pp_txt8_5": {
             "type": "string"
           },
-          "home_section1_subtitle1": {
+          "pp_txt8_6_1": {
             "type": "string"
           },
-          "home_section1_subtitle2": {
+          "pp_txt8_6_2": {
             "type": "string"
           },
-          "btn7": {
+          "pp_txt9": {
             "type": "string"
           },
-          "home_section2_hero": {
+          "pp_txt9_1_1": {
             "type": "string"
           },
-          "home_section2_subtitle1": {
+          "pp_txt9_1_2": {
             "type": "string"
           },
-          "home_section3_cardtitle1": {
+          "pp_txt9_1_3": {
             "type": "string"
           },
-          "home_section3_cardsubtitle1": {
+          "pp_txt9_2_1": {
             "type": "string"
           },
-          "home_section3_cardtitle2": {
+          "pp_txt9_2_2": {
             "type": "string"
           },
-          "home_section3_cardssubtitle2": {
+          "pp_txt9_3": {
             "type": "string"
           },
-          "home_section3_cardtitle3": {
+          "pp_txt9_4": {
             "type": "string"
           },
-          "home_section3_cardsubtitle3": {
+          "pp_txt10": {
             "type": "string"
           },
-          "home_section4_hero": {
+          "pp_txt10_1": {
             "type": "string"
           },
-          "home_section4_subtitle": {
+          "pp_txt10_2": {
             "type": "string"
           },
-          "home_section4_tagtitle1": {
+          "pp_txt10_3": {
             "type": "string"
           },
-          "home_section4_tagtitle2": {
+          "pp_txt10_4": {
             "type": "string"
           },
-          "home_section4_card1_maintitle1": {
+          "pp_txt10_5": {
             "type": "string"
           },
-          "home_section4_card1_maintitle2": {
+          "pp_txt10_6": {
             "type": "string"
           },
-          "home_section4_card2_maintitle1": {
+          "pp_txt10_7": {
             "type": "string"
           },
-          "home_section4_card2_maintitle2": {
+          "pp_txt10_8": {
             "type": "string"
           },
-          "home_section4_card3_maintitle1": {
+          "pp_txt10_9": {
             "type": "string"
           },
-          "home_section4_card3_maintitle2": {
+          "pp_txt11": {
             "type": "string"
           },
-          "home_section4_card4_maintitle1": {
+          "pp_txt11_1": {
             "type": "string"
           },
-          "home_section4_card4_maintitle2": {
+          "pp_txt11_2": {
             "type": "string"
           },
-          "btn8": {
+          "pp_txt11_3": {
             "type": "string"
           },
-          "home_section5_hero": {
+          "pp_txt11_4_1": {
             "type": "string"
           },
-          "home_section5_subtitle": {
+          "pp_txt11_4_2": {
             "type": "string"
           },
-          "footer_section1_title1": {
+          "pp_txt11_4_3": {
             "type": "string"
           },
-          "footer_section1_subtitle1_1": {
+          "pp_txt11_5_1": {
             "type": "string"
           },
-          "footer_section1_title2": {
+          "pp_txt11_5_2": {
             "type": "string"
           },
-          "footer_section1_subtitle2": {
+          "pp_txt11_5_3": {
             "type": "string"
           },
-          "footer_section1_title3": {
+          "pp_txt11_6": {
             "type": "string"
           },
-          "footer_section1_subtitle3": {
+          "pp_txt11_7": {
             "type": "string"
           },
-          "footer_section2_title1": {
+          "pp_txt11_8": {
             "type": "string"
           },
-          "footer_section2_title2": {
+          "pp_txt11_9": {
             "type": "string"
           },
-          "footer_section2_eu_url": {
+          "pp_txt11_10": {
             "type": "string"
           },
-          "footer_section2_bmz_url": {
+          "pp_txt11_11_1": {
             "type": "string"
           },
-          "footer_section2_giz_url": {
+          "pp_txt11_11_2": {
             "type": "string"
           },
-          "footer_section3_title1": {
+          "pp_txt11_12_1": {
             "type": "string"
           },
-          "footer_section3_title2": {
+          "pp_txt11_12_2": {
             "type": "string"
           },
-          "footer_section3_title3": {
+          "pp_txt11_13_1": {
             "type": "string"
           },
-          "footer_section3_url1": {
+          "pp_txt11_13_2": {
             "type": "string"
           },
-          "footer_section3_url2": {
+          "pp_txt11_14_1": {
             "type": "string"
           },
-          "Nav_txt_4": {
+          "pp_txt11_14_2": {
             "type": "string"
           },
-          "Nav_txt_5": {
+          "pp_txt11_15": {
             "type": "string"
           },
-          "Nav_txt_6": {
+          "pp_txt12": {
             "type": "string"
           },
-          "Nav_txt_url_4": {
+          "pp_txt12_1": {
             "type": "string"
           },
-          "Nav_txt_url_5": {
+          "pp_txt12_2": {
             "type": "string"
           },
-          "Nav_txt_url_6": {
+          "pp_txt13": {
             "type": "string"
           },
-          "minigrids_hero_subtitle1": {
+          "pp_txt13_1": {
             "type": "string"
           },
-          "minigrids_section2_hero": {
+          "pp_txt13_2": {
             "type": "string"
           },
-          "minigrids_section2_hero_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section2_card1_title": {
-            "type": "string"
-          },
-          "minigrids_section2_card1_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section2_card2_title": {
-            "type": "string"
-          },
-          "minigrids_section2_card2_subtitle": {
-            "type": "string"
-          },
-          "minigrids_hero_subtitle2": {
-            "type": "string"
-          },
-          "minigrids_section3_hero": {
-            "type": "string"
-          },
-          "minigrids_section3_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section4_hero": {
-            "type": "string"
-          },
-          "minigrids_section4_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section4_col1": {
-            "type": "string"
-          },
-          "minigrids_section4_col2": {
-            "type": "string"
-          },
-          "minigrids_section4_col3": {
-            "type": "string"
-          },
-          "minigrids_section4_col4": {
-            "type": "string"
-          },
-          "minigrids_section4_more": {
-            "type": "string"
-          },
-          "minigrids_section3_blog_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section6_hero": {
-            "type": "string"
-          },
-          "minigrids_section6_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section5_card1_title": {
-            "type": "string"
-          },
-          "minigrids_section5_card1_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section5_card2_title": {
-            "type": "string"
-          },
-          "minigrids_section5_card2_subtitle": {
-            "type": "string"
-          },
-          "accreditation_hero": {
-            "type": "string"
-          },
-          "accreditation_title1": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt1_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt2_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt3_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt6": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_2": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_3": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_4": {
+          "pp_txt13_3": {
             "type": "string"
           },
           "published_at": {
@@ -797,474 +635,312 @@
           }
         }
       },
-      "NewDynamic-blog-content": {
+      "NewDynamic-privacy-policy-content": {
         "properties": {
-          "hero_title": {
+          "pp_hero": {
             "type": "string"
           },
-          "hero_subtitle_1": {
+          "pp_txt1": {
             "type": "string"
           },
-          "hero_subtitle_2": {
+          "pp_txt1_1": {
             "type": "string"
           },
-          "btn1": {
+          "pp_txt1_2_1": {
             "type": "string"
           },
-          "hero_category": {
+          "pp_txt1_2_2": {
             "type": "string"
           },
-          "btn2": {
+          "pp_txt2": {
             "type": "string"
           },
-          "tag_txt": {
+          "pp_txt2_1_1": {
             "type": "string"
           },
-          "social_txt": {
+          "pp_txt2_1_2": {
             "type": "string"
           },
-          "facebook_url": {
+          "pp_txt2_1_3": {
             "type": "string"
           },
-          "linkedin_url": {
+          "pp_txt2_1_4": {
             "type": "string"
           },
-          "email_url": {
+          "pp_txt3": {
             "type": "string"
           },
-          "contact_hero_title": {
+          "pp_txt3_1_1": {
             "type": "string"
           },
-          "contact_hero_subtitle_1": {
+          "pp_txt3_1_2": {
             "type": "string"
           },
-          "contact_hero_subtitle_2": {
+          "pp_txt3_2_1": {
             "type": "string"
           },
-          "contact_hero_subtitle_3": {
+          "pp_txt3_2_2": {
             "type": "string"
           },
-          "btn3": {
+          "pp_txt3_3_1": {
             "type": "string"
           },
-          "contact_page_txt_1": {
+          "pp_txt3_3_2": {
             "type": "string"
           },
-          "contact_page_txt_2": {
+          "pp_txt4": {
             "type": "string"
           },
-          "contact_page_txt_3": {
+          "pp_txt4_1": {
             "type": "string"
           },
-          "contact_page_txt_4": {
+          "pp_txt4_2": {
             "type": "string"
           },
-          "contact_page_txt_5": {
+          "pp_txt4_3_1": {
             "type": "string"
           },
-          "contact_page_txt_6": {
+          "pp_txt4_3_2": {
             "type": "string"
           },
-          "contact_page_txt_7": {
+          "pp_txt4_4": {
             "type": "string"
           },
-          "contact_page_txt_8": {
+          "pp_txt4_5": {
             "type": "string"
           },
-          "contact_page_txt_9": {
+          "pp_txt4_6_1": {
             "type": "string"
           },
-          "contact_page_error_1": {
+          "pp_txt4_6_2": {
             "type": "string"
           },
-          "contact_page_error_2": {
+          "pp_txt5": {
             "type": "string"
           },
-          "contact_page_error_3": {
+          "pp_txt5_1": {
             "type": "string"
           },
-          "contact_page_error_4": {
+          "pp_txt5_2": {
             "type": "string"
           },
-          "contact_page_error_5": {
+          "pp_txt5_3": {
             "type": "string"
           },
-          "btn4": {
+          "pp_txt5_4": {
             "type": "string"
           },
-          "footer_hero_title": {
+          "pp_txt5_5": {
             "type": "string"
           },
-          "footer_hero_subtitle_1": {
+          "pp_txt5_6": {
             "type": "string"
           },
-          "footer_hero_subtitle_2": {
+          "pp_txt5_7": {
             "type": "string"
           },
-          "footer_hero_subtitle_3": {
+          "pp_txt5_8": {
             "type": "string"
           },
-          "form_success_hero_title": {
+          "pp_txt6": {
             "type": "string"
           },
-          "form_success_hero_subtitle_1": {
+          "pp_txt6_1": {
             "type": "string"
           },
-          "btn5": {
+          "pp_txt7": {
             "type": "string"
           },
-          "nav_site_title": {
+          "pp_txt7_1": {
             "type": "string"
           },
-          "nav_txt_1": {
+          "pp_txt7_2": {
             "type": "string"
           },
-          "nav_txt_2": {
+          "pp_txt7_3": {
             "type": "string"
           },
-          "nav_txt_3": {
+          "pp_txt7_4_1": {
             "type": "string"
           },
-          "nav_txt_url_1": {
+          "pp_txt7_4_2": {
             "type": "string"
           },
-          "nav_txt_url_2": {
+          "pp_txt7_5_1": {
             "type": "string"
           },
-          "nav_txt_url_3": {
+          "pp_txt7_5_2": {
             "type": "string"
           },
-          "nav_logo_url": {
+          "pp_txt8": {
             "type": "string"
           },
-          "subscribe_hero_title": {
+          "pp_txt8_1": {
             "type": "string"
           },
-          "subscribe_hero_subtitle_1": {
+          "pp_txt8_2": {
             "type": "string"
           },
-          "subscribe_hero_txt_1": {
+          "pp_txt8_3": {
             "type": "string"
           },
-          "btn6": {
+          "pp_txt8_4": {
             "type": "string"
           },
-          "home_section1_hero": {
+          "pp_txt8_5": {
             "type": "string"
           },
-          "home_section1_subtitle1": {
+          "pp_txt8_6_1": {
             "type": "string"
           },
-          "home_section1_subtitle2": {
+          "pp_txt8_6_2": {
             "type": "string"
           },
-          "btn7": {
+          "pp_txt9": {
             "type": "string"
           },
-          "home_section2_hero": {
+          "pp_txt9_1_1": {
             "type": "string"
           },
-          "home_section2_subtitle1": {
+          "pp_txt9_1_2": {
             "type": "string"
           },
-          "home_section3_cardtitle1": {
+          "pp_txt9_1_3": {
             "type": "string"
           },
-          "home_section3_cardsubtitle1": {
+          "pp_txt9_2_1": {
             "type": "string"
           },
-          "home_section3_cardtitle2": {
+          "pp_txt9_2_2": {
             "type": "string"
           },
-          "home_section3_cardssubtitle2": {
+          "pp_txt9_3": {
             "type": "string"
           },
-          "home_section3_cardtitle3": {
+          "pp_txt9_4": {
             "type": "string"
           },
-          "home_section3_cardsubtitle3": {
+          "pp_txt10": {
             "type": "string"
           },
-          "home_section4_hero": {
+          "pp_txt10_1": {
             "type": "string"
           },
-          "home_section4_subtitle": {
+          "pp_txt10_2": {
             "type": "string"
           },
-          "home_section4_tagtitle1": {
+          "pp_txt10_3": {
             "type": "string"
           },
-          "home_section4_tagtitle2": {
+          "pp_txt10_4": {
             "type": "string"
           },
-          "home_section4_card1_maintitle1": {
+          "pp_txt10_5": {
             "type": "string"
           },
-          "home_section4_card1_maintitle2": {
+          "pp_txt10_6": {
             "type": "string"
           },
-          "home_section4_card2_maintitle1": {
+          "pp_txt10_7": {
             "type": "string"
           },
-          "home_section4_card2_maintitle2": {
+          "pp_txt10_8": {
             "type": "string"
           },
-          "home_section4_card3_maintitle1": {
+          "pp_txt10_9": {
             "type": "string"
           },
-          "home_section4_card3_maintitle2": {
+          "pp_txt11": {
             "type": "string"
           },
-          "home_section4_card4_maintitle1": {
+          "pp_txt11_1": {
             "type": "string"
           },
-          "home_section4_card4_maintitle2": {
+          "pp_txt11_2": {
             "type": "string"
           },
-          "btn8": {
+          "pp_txt11_3": {
             "type": "string"
           },
-          "home_section5_hero": {
+          "pp_txt11_4_1": {
             "type": "string"
           },
-          "home_section5_subtitle": {
+          "pp_txt11_4_2": {
             "type": "string"
           },
-          "footer_section1_title1": {
+          "pp_txt11_4_3": {
             "type": "string"
           },
-          "footer_section1_subtitle1_1": {
+          "pp_txt11_5_1": {
             "type": "string"
           },
-          "footer_section1_title2": {
+          "pp_txt11_5_2": {
             "type": "string"
           },
-          "footer_section1_subtitle2": {
+          "pp_txt11_5_3": {
             "type": "string"
           },
-          "footer_section1_title3": {
+          "pp_txt11_6": {
             "type": "string"
           },
-          "footer_section1_subtitle3": {
+          "pp_txt11_7": {
             "type": "string"
           },
-          "footer_section2_title1": {
+          "pp_txt11_8": {
             "type": "string"
           },
-          "footer_section2_title2": {
+          "pp_txt11_9": {
             "type": "string"
           },
-          "footer_section2_eu_url": {
+          "pp_txt11_10": {
             "type": "string"
           },
-          "footer_section2_bmz_url": {
+          "pp_txt11_11_1": {
             "type": "string"
           },
-          "footer_section2_giz_url": {
+          "pp_txt11_11_2": {
             "type": "string"
           },
-          "footer_section3_title1": {
+          "pp_txt11_12_1": {
             "type": "string"
           },
-          "footer_section3_title2": {
+          "pp_txt11_12_2": {
             "type": "string"
           },
-          "footer_section3_title3": {
+          "pp_txt11_13_1": {
             "type": "string"
           },
-          "footer_section3_url1": {
+          "pp_txt11_13_2": {
             "type": "string"
           },
-          "footer_section3_url2": {
+          "pp_txt11_14_1": {
             "type": "string"
           },
-          "Nav_txt_4": {
+          "pp_txt11_14_2": {
             "type": "string"
           },
-          "Nav_txt_5": {
+          "pp_txt11_15": {
             "type": "string"
           },
-          "Nav_txt_6": {
+          "pp_txt12": {
             "type": "string"
           },
-          "Nav_txt_url_4": {
+          "pp_txt12_1": {
             "type": "string"
           },
-          "Nav_txt_url_5": {
+          "pp_txt12_2": {
             "type": "string"
           },
-          "Nav_txt_url_6": {
+          "pp_txt13": {
             "type": "string"
           },
-          "minigrids_hero_subtitle1": {
+          "pp_txt13_1": {
             "type": "string"
           },
-          "minigrids_section2_hero": {
+          "pp_txt13_2": {
             "type": "string"
           },
-          "minigrids_section2_hero_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section2_card1_title": {
-            "type": "string"
-          },
-          "minigrids_section2_card1_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section2_card2_title": {
-            "type": "string"
-          },
-          "minigrids_section2_card2_subtitle": {
-            "type": "string"
-          },
-          "minigrids_hero_subtitle2": {
-            "type": "string"
-          },
-          "minigrids_section3_hero": {
-            "type": "string"
-          },
-          "minigrids_section3_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section4_hero": {
-            "type": "string"
-          },
-          "minigrids_section4_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section4_col1": {
-            "type": "string"
-          },
-          "minigrids_section4_col2": {
-            "type": "string"
-          },
-          "minigrids_section4_col3": {
-            "type": "string"
-          },
-          "minigrids_section4_col4": {
-            "type": "string"
-          },
-          "minigrids_section4_more": {
-            "type": "string"
-          },
-          "minigrids_section3_blog_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section6_hero": {
-            "type": "string"
-          },
-          "minigrids_section6_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section5_card1_title": {
-            "type": "string"
-          },
-          "minigrids_section5_card1_subtitle": {
-            "type": "string"
-          },
-          "minigrids_section5_card2_title": {
-            "type": "string"
-          },
-          "minigrids_section5_card2_subtitle": {
-            "type": "string"
-          },
-          "accreditation_hero": {
-            "type": "string"
-          },
-          "accreditation_title1": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt1_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt1_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt2_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt2_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt3_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt3_img_url": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt4_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt1": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt2": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt3": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt4": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt5": {
-            "type": "string"
-          },
-          "accreditation_pt5_txt6": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_2": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_3": {
-            "type": "string"
-          },
-          "footer_section1_subtitle1_4": {
+          "pp_txt13_3": {
             "type": "string"
           },
           "published_at": {

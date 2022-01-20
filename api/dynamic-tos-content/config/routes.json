@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dynamic-tos-content",
+      "handler": "dynamic-tos-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dynamic-tos-content",
+      "handler": "dynamic-tos-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dynamic-tos-content",
+      "handler": "dynamic-tos-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

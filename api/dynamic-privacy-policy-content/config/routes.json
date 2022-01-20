@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dynamic-privacy-policy-content",
+      "handler": "dynamic-privacy-policy-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dynamic-privacy-policy-content",
+      "handler": "dynamic-privacy-policy-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dynamic-privacy-policy-content",
+      "handler": "dynamic-privacy-policy-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

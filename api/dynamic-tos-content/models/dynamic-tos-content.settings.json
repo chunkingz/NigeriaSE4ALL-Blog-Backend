@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "dynamic_tos_contents",
+  "info": {
+    "name": "Dynamic TOS Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tos_hero": {
+      "type": "string"
+    },
+    "tos_txt_1": {
+      "type": "string"
+    },
+    "tos_txt_2": {
+      "type": "string"
+    },
+    "tos_txt_3": {
+      "type": "string"
+    },
+    "tos_txt_4_1": {
+      "type": "string"
+    },
+    "tos_txt_4_2": {
+      "type": "string"
+    },
+    "tos_txt_5_1": {
+      "type": "string"
+    },
+    "tos_txt_5_2": {
+      "type": "string"
+    },
+    "tos_txt_6_1": {
+      "type": "string"
+    },
+    "tos_txt_6_2": {
+      "type": "string"
+    },
+    "tos_txt_7": {
+      "type": "string"
+    },
+    "tos_txt_5_3": {
+      "type": "string"
+    },
+    "tos_txt_6_3": {
+      "type": "string"
+    },
+    "tos_txt_6_4": {
+      "type": "string"
+    }
+  }
+}
