@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_section_minigrids",
+  "info": {
+    "name": "Download Section Minigrid",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID": {
+      "type": "uid"
+    },
+    "Dataset": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Last_update": {
+      "type": "date",
+      "required": true
+    },
+    "License": {
+      "type": "string",
+      "required": true
+    },
+    "download_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

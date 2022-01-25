@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/download-section-minigrids",
+      "handler": "download-section-minigrid.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-minigrids/count",
+      "handler": "download-section-minigrid.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-minigrids/:id",
+      "handler": "download-section-minigrid.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/download-section-minigrids",
+      "handler": "download-section-minigrid.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/download-section-minigrids/:id",
+      "handler": "download-section-minigrid.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/download-section-minigrids/:id",
+      "handler": "download-section-minigrid.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
