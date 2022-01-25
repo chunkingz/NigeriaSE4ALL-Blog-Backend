@@ -479,6 +479,12 @@
     },
     "footer_section1_subtitle1_4": {
       "type": "string"
+    },
+    "home_hero_youtube_video": {
+      "type": "string"
+    },
+    "home_hero_btn_url": {
+      "type": "string"
     }
   }
 }

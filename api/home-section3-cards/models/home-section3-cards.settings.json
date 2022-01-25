@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_section3_cards",
+  "info": {
+    "name": "Home Section3 Cards",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "card_url": {
+      "type": "string"
+    },
+    "card_img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "card_img_alt": {
+      "type": "string"
+    },
+    "card_title": {
+      "type": "string"
+    },
+    "card_subtitle": {
+      "type": "string"
+    }
+  }
+}
