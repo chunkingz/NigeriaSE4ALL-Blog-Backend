@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/25/2022 1:35:17 PM"
+    "x-generation-date": "01/26/2022 2:02:21 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5390,6 +5390,9 @@
                     "type": "string"
                   }
                 },
+                "class_style_1": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -5459,6 +5462,9 @@
           "summary": {
             "type": "string"
           },
+          "class_style_1": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -5496,6 +5502,9 @@
             "type": "uid"
           },
           "summary": {
+            "type": "string"
+          },
+          "class_style_1": {
             "type": "string"
           },
           "published_at": {
@@ -5564,6 +5573,9 @@
                 "summary": {
                   "type": "string"
                 },
+                "class_style_1": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -5575,6 +5587,9 @@
                 }
               }
             }
+          },
+          "class_style_1": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -5595,6 +5610,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "class_style_1": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -6090,6 +6108,9 @@
           "home_hero_btn_url": {
             "type": "string"
           },
+          "btn9": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -6570,6 +6591,9 @@
             "type": "string"
           },
           "home_hero_btn_url": {
+            "type": "string"
+          },
+          "btn9": {
             "type": "string"
           },
           "published_at": {
@@ -7554,6 +7578,9 @@
           "card_btn_txt": {
             "type": "string"
           },
+          "class_style_1": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -7578,6 +7605,9 @@
             "type": "string"
           },
           "card_btn_txt": {
+            "type": "string"
+          },
+          "class_style_1": {
             "type": "string"
           },
           "published_at": {
@@ -7850,6 +7880,9 @@
                   "type": "uid"
                 },
                 "summary": {
+                  "type": "string"
+                },
+                "class_style_1": {
                   "type": "string"
                 },
                 "published_at": {

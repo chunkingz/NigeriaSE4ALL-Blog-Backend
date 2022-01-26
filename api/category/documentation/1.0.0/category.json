@@ -568,6 +568,9 @@
                 "summary": {
                   "type": "string"
                 },
+                "class_style_1": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -579,6 +582,9 @@
                 }
               }
             }
+          },
+          "class_style_1": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -599,6 +605,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "class_style_1": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",

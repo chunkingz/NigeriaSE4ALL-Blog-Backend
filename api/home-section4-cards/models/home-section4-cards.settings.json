@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "home_section4_cards",
   "info": {
-    "name": "Home Section4 Cards"
+    "name": "Home Section4 Cards",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -39,6 +40,9 @@
       "type": "string"
     },
     "card_btn_txt": {
+      "type": "string"
+    },
+    "class_style_1": {
       "type": "string"
     }
   }

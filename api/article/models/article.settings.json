@@ -51,6 +51,9 @@
     "summary": {
       "type": "string",
       "required": true
+    },
+    "class_style_1": {
+      "type": "string"
     }
   }
 }

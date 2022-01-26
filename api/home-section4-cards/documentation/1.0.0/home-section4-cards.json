@@ -623,6 +623,9 @@
           "card_btn_txt": {
             "type": "string"
           },
+          "class_style_1": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -647,6 +650,9 @@
             "type": "string"
           },
           "card_btn_txt": {
+            "type": "string"
+          },
+          "class_style_1": {
             "type": "string"
           },
           "published_at": {

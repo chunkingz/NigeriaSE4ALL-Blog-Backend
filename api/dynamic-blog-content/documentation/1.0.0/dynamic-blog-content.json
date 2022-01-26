@@ -797,6 +797,9 @@
           "home_hero_btn_url": {
             "type": "string"
           },
+          "btn9": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1277,6 +1280,9 @@
             "type": "string"
           },
           "home_hero_btn_url": {
+            "type": "string"
+          },
+          "btn9": {
             "type": "string"
           },
           "published_at": {

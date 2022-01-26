@@ -485,6 +485,9 @@
     },
     "home_hero_btn_url": {
       "type": "string"
+    },
+    "btn9": {
+      "type": "string"
     }
   }
 }

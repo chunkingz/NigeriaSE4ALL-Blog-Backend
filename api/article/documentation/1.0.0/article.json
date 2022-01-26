@@ -624,6 +624,9 @@
                     "type": "string"
                   }
                 },
+                "class_style_1": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -693,6 +696,9 @@
           "summary": {
             "type": "string"
           },
+          "class_style_1": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -730,6 +736,9 @@
             "type": "uid"
           },
           "summary": {
+            "type": "string"
+          },
+          "class_style_1": {
             "type": "string"
           },
           "published_at": {
