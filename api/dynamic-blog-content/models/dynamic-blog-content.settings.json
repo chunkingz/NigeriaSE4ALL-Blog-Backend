@@ -310,7 +310,7 @@
       "type": "string"
     },
     "minigrids_hero_subtitle1": {
-      "type": "string"
+      "type": "text"
     },
     "minigrids_section2_hero": {
       "type": "string"
@@ -486,6 +486,67 @@
     "home_hero_btn_url": {
       "type": "string"
     },
+    "minigrids_hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "minigrids_section2_card1_url": {
+      "type": "string"
+    },
+    "minigrids_section2_card2_url": {
+      "type": "string"
+    },
+    "minigrids_section2_card1_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "minigrids_section2_card2_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "minigrids_section5_card1_url": {
+      "type": "string"
+    },
+    "minigrids_section5_card2_url": {
+      "type": "string"
+    },
+    "minigrids_section5_card1_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "minigrids_section5_card2_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     "btn9": {
       "type": "string"
     }
