@@ -1144,6 +1144,155 @@
               }
             }
           },
+          "power_sector_hero_subtitle": {
+            "type": "string"
+          },
+          "power_sector_hero_image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "power_sector_section2_hero": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_title": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_subtitle": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_url": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_image": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1636,6 +1785,21 @@
             "type": "string"
           },
           "minigrids_section5_card2_url": {
+            "type": "string"
+          },
+          "power_sector_hero_subtitle": {
+            "type": "string"
+          },
+          "power_sector_section2_hero": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_title": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_subtitle": {
+            "type": "string"
+          },
+          "power_sector_section2_card1_url": {
             "type": "string"
           },
           "published_at": {

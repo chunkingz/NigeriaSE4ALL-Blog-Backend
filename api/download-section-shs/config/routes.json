@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/download-section-shs",
+      "handler": "download-section-shs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-shs/count",
+      "handler": "download-section-shs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-shs/:id",
+      "handler": "download-section-shs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/download-section-shs",
+      "handler": "download-section-shs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/download-section-shs/:id",
+      "handler": "download-section-shs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/download-section-shs/:id",
+      "handler": "download-section-shs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -546,10 +546,42 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {},
-    "btn9": {
+      "pluginOptions": {}
+    },
+    "power_sector_hero_subtitle": {
+      "type": "text"
+    },
+    "power_sector_hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "power_sector_section2_hero": {
       "type": "string"
+    },
+    "power_sector_section2_card1_title": {
+      "type": "string"
+    },
+    "power_sector_section2_card1_subtitle": {
+      "type": "string"
+    },
+    "power_sector_section2_card1_url": {
+      "type": "string"
+    },
+    "power_sector_section2_card1_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
-}
 }

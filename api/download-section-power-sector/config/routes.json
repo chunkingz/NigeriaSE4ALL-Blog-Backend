@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/download-section-power-sectors",
+      "handler": "download-section-power-sector.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-power-sectors/count",
+      "handler": "download-section-power-sector.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/download-section-power-sectors/:id",
+      "handler": "download-section-power-sector.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/download-section-power-sectors",
+      "handler": "download-section-power-sector.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/download-section-power-sectors/:id",
+      "handler": "download-section-power-sector.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/download-section-power-sectors/:id",
+      "handler": "download-section-power-sector.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

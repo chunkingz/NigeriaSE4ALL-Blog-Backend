@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subpage_webmap_cards",
+  "info": {
+    "name": "Subpage Webmap Cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "url": {
+      "type": "string"
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

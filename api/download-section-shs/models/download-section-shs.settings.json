@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_section_shs",
+  "info": {
+    "name": "Download Section SHS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID": {
+      "type": "uid"
+    },
+    "Dataset": {
+      "type": "string"
+    },
+    "Last_update": {
+      "type": "date"
+    },
+    "License": {
+      "type": "string"
+    },
+    "download_url": {
+      "type": "string"
+    }
+  }
+}

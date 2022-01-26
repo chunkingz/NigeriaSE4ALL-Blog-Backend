@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subpage-webmap-cards",
+      "handler": "subpage-webmap-cards.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subpage-webmap-cards/count",
+      "handler": "subpage-webmap-cards.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subpage-webmap-cards/:id",
+      "handler": "subpage-webmap-cards.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subpage-webmap-cards",
+      "handler": "subpage-webmap-cards.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subpage-webmap-cards/:id",
+      "handler": "subpage-webmap-cards.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subpage-webmap-cards/:id",
+      "handler": "subpage-webmap-cards.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "download_section_power_sectors",
+  "info": {
+    "name": "Download Section Power Sector"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID": {
+      "type": "uid"
+    },
+    "Dataset": {
+      "type": "string"
+    },
+    "Last_update": {
+      "type": "date"
+    },
+    "License": {
+      "type": "string"
+    },
+    "download_url": {
+      "type": "string"
+    }
+  }
+}
