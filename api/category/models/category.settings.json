@@ -19,6 +19,9 @@
     "articles": {
       "via": "categories",
       "collection": "article"
+    },
+    "class_style_1": {
+      "type": "string"
     }
   }
 }

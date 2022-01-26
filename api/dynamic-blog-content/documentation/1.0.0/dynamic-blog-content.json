@@ -1144,6 +1144,9 @@
               }
             }
           },
+          "btn9": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1636,6 +1639,7 @@
             "type": "string"
           },
           "minigrids_section5_card2_url": {
+          "btn9": {
             "type": "string"
           },
           "published_at": {
