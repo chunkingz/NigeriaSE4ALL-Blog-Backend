@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "01/26/2022 2:02:21 AM"
+    "x-generation-date": "01/26/2022 3:14:20 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7049,9 +7049,6 @@
               }
             }
           },
-          "btn9": {
-            "type": "string"
-          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -7544,7 +7541,6 @@
             "type": "string"
           },
           "minigrids_section5_card2_url": {
-          "btn9": {
             "type": "string"
           },
           "published_at": {

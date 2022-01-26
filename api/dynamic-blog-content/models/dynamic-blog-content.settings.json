@@ -546,9 +546,10 @@
       ],
       "plugin": "upload",
       "required": false,
-      "pluginOptions": {}
+      "pluginOptions": {},
     "btn9": {
       "type": "string"
     }
   }
+}
 }
