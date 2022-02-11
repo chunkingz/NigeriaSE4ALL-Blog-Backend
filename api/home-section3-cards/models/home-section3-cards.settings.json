@@ -35,6 +35,9 @@
     },
     "card_subtitle": {
       "type": "string"
+    },
+    "color": {
+      "type": "string"
     }
   }
 }

@@ -617,6 +617,9 @@
           "card_subtitle": {
             "type": "string"
           },
+          "color": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -635,6 +638,9 @@
             "type": "string"
           },
           "card_subtitle": {
+            "type": "string"
+          },
+          "color": {
             "type": "string"
           },
           "published_at": {
