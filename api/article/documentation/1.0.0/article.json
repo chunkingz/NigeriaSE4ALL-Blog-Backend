@@ -627,6 +627,9 @@
                 "class_style_1": {
                   "type": "string"
                 },
+                "alt_name": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },

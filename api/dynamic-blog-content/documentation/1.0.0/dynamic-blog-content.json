@@ -1360,6 +1360,9 @@
               }
             }
           },
+          "footer_section3_title2_2": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1867,6 +1870,9 @@
             "type": "string"
           },
           "power_sector_section2_card1_url": {
+            "type": "string"
+          },
+          "footer_section3_title2_2": {
             "type": "string"
           },
           "published_at": {

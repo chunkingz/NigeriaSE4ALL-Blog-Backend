@@ -592,6 +592,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "footer_section3_title2_2": {
+      "type": "string"
     }
   }
 }

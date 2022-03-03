@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/23/2022 4:39:41 PM"
+    "x-generation-date": "03/03/2022 10:04:57 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8013,6 +8013,9 @@
                 "class_style_1": {
                   "type": "string"
                 },
+                "alt_name": {
+                  "type": "string"
+                },
                 "published_at": {
                   "type": "string"
                 },
@@ -8211,6 +8214,9 @@
           "class_style_1": {
             "type": "string"
           },
+          "alt_name": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -8232,6 +8238,9 @@
             }
           },
           "class_style_1": {
+            "type": "string"
+          },
+          "alt_name": {
             "type": "string"
           },
           "published_at": {
@@ -9481,6 +9490,9 @@
               }
             }
           },
+          "footer_section3_title2_2": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -9988,6 +10000,9 @@
             "type": "string"
           },
           "power_sector_section2_card1_url": {
+            "type": "string"
+          },
+          "footer_section3_title2_2": {
             "type": "string"
           },
           "published_at": {
@@ -11127,6 +11142,9 @@
               "class_style_1": {
                 "type": "string"
               },
+              "alt_name": {
+                "type": "string"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -11273,6 +11291,9 @@
                 }
               },
               "class_style_1": {
+                "type": "string"
+              },
+              "alt_name": {
                 "type": "string"
               },
               "published_at": {
