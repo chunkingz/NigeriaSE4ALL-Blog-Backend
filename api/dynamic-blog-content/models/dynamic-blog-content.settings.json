@@ -595,6 +595,12 @@
     },
     "footer_section3_title2_2": {
       "type": "string"
+    },
+    "shs_hero_subtitle": {
+      "type": "text"
+    },
+    "shs_section2_hero": {
+      "type": "text"
     }
   }
 }

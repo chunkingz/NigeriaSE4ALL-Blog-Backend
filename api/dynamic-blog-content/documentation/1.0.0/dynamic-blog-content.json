@@ -1363,6 +1363,12 @@
           "footer_section3_title2_2": {
             "type": "string"
           },
+          "shs_hero_subtitle": {
+            "type": "string"
+          },
+          "shs_section2_hero": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -1873,6 +1879,12 @@
             "type": "string"
           },
           "footer_section3_title2_2": {
+            "type": "string"
+          },
+          "shs_hero_subtitle": {
+            "type": "string"
+          },
+          "shs_section2_hero": {
             "type": "string"
           },
           "published_at": {
