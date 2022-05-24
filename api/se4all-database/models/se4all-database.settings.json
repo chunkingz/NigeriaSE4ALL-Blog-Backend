@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "se4all_databases",
+  "info": {
+    "name": "se4all_database"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "se4all_database_id": {
+      "type": "uid"
+    }
+  }
+}

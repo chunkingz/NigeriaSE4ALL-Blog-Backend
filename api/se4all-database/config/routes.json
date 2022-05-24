@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/se-4-all-databases",
+      "handler": "se4all-database.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/se-4-all-databases/count",
+      "handler": "se4all-database.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/se-4-all-databases/:id",
+      "handler": "se4all-database.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/se-4-all-databases",
+      "handler": "se4all-database.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/se-4-all-databases/:id",
+      "handler": "se4all-database.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/se-4-all-databases/:id",
+      "handler": "se4all-database.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
