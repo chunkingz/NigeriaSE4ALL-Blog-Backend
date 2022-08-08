@@ -646,6 +646,9 @@
               }
             }
           },
+          "open_link_new_tab": {
+            "type": "boolean"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -665,6 +668,9 @@
           },
           "category": {
             "type": "string"
+          },
+          "open_link_new_tab": {
+            "type": "boolean"
           },
           "published_at": {
             "type": "string",

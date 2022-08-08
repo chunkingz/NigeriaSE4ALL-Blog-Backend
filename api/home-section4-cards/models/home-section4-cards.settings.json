@@ -44,6 +44,10 @@
     },
     "class_style_1": {
       "type": "string"
+    },
+    "open_link_new_tab": {
+      "type": "boolean",
+      "required": false
     }
   }
 }
